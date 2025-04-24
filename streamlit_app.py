@@ -8,7 +8,6 @@ from pathlib import Path
 # Set title and favicon
 st.set_page_config(
     page_title='Daily Frames Dashboard - MALTA K2G',
-    page_icon = None,
     layout = 'wide',
 )
 
@@ -20,6 +19,7 @@ alt.themes.enable("dark") ##new
 @st.cache_data
 def load_equipment_data():
     """Load daily frames data from an Excel file."""
+    Data
     DATA_FILENAME = 'data/daily_frames.xlsx'
     df = pd.read_excel(DATA_FILENAME, index_col=0, parse_dates=True)
     return df
