@@ -20,7 +20,6 @@ alt.themes.enable("dark") ##new
 @st.cache_data
 def load_equipment_data():
     """Load daily frames data from an Excel file."""
-    "DATA_FILENAME = Path(__file__).parent / 'data/daily_frames.xlsx'"
     DATA_FILENAME = 'data/daily_frames.xlsx'
     df = pd.read_excel(DATA_FILENAME, index_col=0, parse_dates=True)
     return df
