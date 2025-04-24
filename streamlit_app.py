@@ -169,8 +169,8 @@ st.set_page_config(
 @st.cache_data
 def load_equipment_data():
     """Load daily frames data from a CSV."""
-    DATA_FILENAME = Path(__file__).parent / 'data/daily_frames.csv'
-    df = pd.read_csv(DATA_FILENAME, index_col=0, parse_dates=True)
+    DATA_FILENAME = Path(__file__).parent / 'data/daily_frames.xlsx'
+    df = pd.read_excel(DATA_FILENAME, index_col=0, parse_dates=True)
     return df
 
 final_df = load_equipment_data()
