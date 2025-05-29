@@ -1,4 +1,4 @@
-# :earth_americas: GDP dashboard template
+# :earth_americas: K2G Malta Perf dashboard
 
 A simple Streamlit app showing a Dashboard of Low Performing K2G in Malta overtime.
 
