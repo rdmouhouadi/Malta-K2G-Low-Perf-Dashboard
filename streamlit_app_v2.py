@@ -126,7 +126,8 @@ else:
                 x=filtered_df.index,
                 y=frame_sum_all,
                 mode='lines+markers',
-                name="Sum of Frames - All Equipments",
+                #name="Sum of Frames - All Equipments",
+                name="Sum of Frames",
                 yaxis='y1',
                 line=dict(dash='dash')  # Dash line for aggregated data
             ))
@@ -136,7 +137,8 @@ else:
                 x=filtered_noise_df.index,
                 y=noise_avg_all,
                 mode='lines+markers',
-                name="Avg Noise - All Equipments",
+                #name="Avg Noise - All Equipments",
+                name="Total Avg Noise",
                 yaxis='y2',
                 line=dict(dash='dash')  # Dash line for aggregated data
             ))
