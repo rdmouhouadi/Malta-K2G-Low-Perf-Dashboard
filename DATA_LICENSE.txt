@@ -1,0 +1,9 @@
+Copyright © [SUEZ DIGITAL SOLUTION], 2025.
+
+The source code in this repository is licensed under the [MIT] License.
+
+The dataset(s) included in this repository are proprietary and confidential.
+They are provided solely for demonstration purposes in connection with this application.
+Any reproduction, distribution, modification, or use of the dataset(s), in whole or in part,
+for any purpose other than running this application, is strictly prohibited without prior
+written permission from [SUEZ DIGITAL SOLUTION].
